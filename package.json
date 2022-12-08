@@ -1,0 +1,22 @@
+{
+    "name": "discordbot-historian",
+    "version": "1.0.0",
+    "description": "Historian Discord Bot",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest .",
+        "init": "npm i",
+        "start": "node app.js"
+    },
+    "engines": {
+        "node": "16.16.0"
+    },
+    "author": "William Elliott",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.2.0",
+        "discord.js": "^14.7.1",
+        "dotenv": "^16.0.3",
+        "pg": "^8.8.0"
+    }
+}
