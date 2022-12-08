@@ -10,26 +10,26 @@ to your message with `Hello World!`
 
 ```js
 class CMyNewCommand extends Command {
-    constructor(logger, bot, orm) {
-        /* All commands need logger/bot passed in super(). */
+  constructor(logger, bot, orm) {
+    /* All commands need logger/bot passed in super(). */
 
-        async function run(target, userArgs) {
-            /* Code for your command will go here.
+    async function run(target, userArgs) {
+      /* Code for your command will go here.
             target will reference the discord message object.
             userArgs will reference user input as Array<string> */
 
-            await target.reply(`Hello World!`);
-        }
-        super("my-new-command", run, logger, bot);
-        this.orm = orm;
-        this.getHelpMessage = () => "My new command!";
+      await target.reply(`Hello World!`);
     }
+    super('my-new-command', run, logger, bot);
+    this.orm = orm;
+    this.getHelpMessage = () => 'My new command!';
+  }
 }
 ```
 
 ```yaml
-In the above example, user input: "$my-new-command arg1 arg2 lastArg"
-userArgs expectation: ["arg1", "arg2", "lastArg"]
+In the above example, user input: '$my-new-command arg1 arg2 lastArg'
+userArgs expectation: ['arg1', 'arg2', 'lastArg']
 ```
 
 ### Commands can call ORM such as:

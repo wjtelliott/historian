@@ -5,10 +5,10 @@ information about users and their messages they type.
 
 ## 🐱‍💻 Features
 
--   Read/Send messages in discord channels
--   Send custom embeds for user profiles
--   Save users and user messages to PostgreSQL database
--   Retrieve most common said words & phrases from users
+- Read/Send messages in discord channels
+- Send custom embeds for user profiles
+- Save users and user messages to PostgreSQL database
+- Retrieve most common said words & phrases from users
 
 ## 💽 Installed NodeModules
 
@@ -42,7 +42,7 @@ Install dependencies
   npm install
 ```
 
--   Make sure to create your PostgreSQL server with the `database.sql` file!
+- Make sure to create your PostgreSQL server with the `database.sql` file!
 
 Start the bot
 
@@ -67,21 +67,21 @@ following contents, example below**
 
 ## 🚧 Roadmap
 
--   Create a more styled user embed
-    -   "User profile" look
-    -   Links to discord profile
--   Sanitize user input
-    -   Add TypeScript?
--   Cross-Channel support
--   Log users into database as bot enters new server
--   Jest testing
--   Axios/Express server-side
+- Create a more styled user embed
+  - "User profile" look
+  - Links to discord profile
+- Sanitize user input
+  - Add TypeScript?
+- Cross-Channel support
+- Log users into database as bot enters new server
+- Jest testing
+- Axios/Express server-side
 
 ## 🖧 Optimizations
 
--   A few TODO's running around
--   Cleaning up the typing and checking for correct args
--   Sanitizing user input could be better
+- A few TODO's running around
+- Cleaning up the typing and checking for correct args
+- Sanitizing user input could be better
 
 ## 🧪 Running Tests
 
@@ -93,11 +93,11 @@ To run tests, run the following command
   npm run test
 ```
 
--   Store all jest files in the `__tests__` folder
+- Store all jest files in the `__tests__` folder
 
 ## 👨‍💻 Authors
 
--   [@william-elliott](https://www.github.com/wjtelliott)
+- [@william-elliott](https://www.github.com/wjtelliott)
 
 ## 🚀 About Me
 
